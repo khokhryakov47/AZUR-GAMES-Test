@@ -1,0 +1,251 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 15297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/AzurSlime
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63965
+Successfully changed project path to: D:/UnityProjects/AzurSlime
+D:/UnityProjects/AzurSlime
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/AzurSlime/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     7648 MB
+    Driver:   26.20.11030.22001
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002767 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3638ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2325ms)
+		BeginReloadAssembly (371ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1808ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (513ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.0 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 5.538600 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.059900 ms MarkObjects: 5.036000 ms  DeleteObjects: 0.135100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/BizulkaProduction/Stickman/Running.fbx
+  artifactKey: Guid(c8027a5e7409bb344a6829e52fa17921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Running.fbx using Guid(c8027a5e7409bb344a6829e52fa17921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16c8c10dab48b6e45fb97fc324b6a1e') in 0.120289 seconds 
+  Import took 0.124580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/BizulkaProduction/Stickman/Idle.fbx
+  artifactKey: Guid(bfe8a7e2d1ecb9c4493dcd24b38fedb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Idle.fbx using Guid(bfe8a7e2d1ecb9c4493dcd24b38fedb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858dfb7e10c9828d3c1b38a66cbe0b45') in 0.019527 seconds 
+  Import took 0.023763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/BizulkaProduction/Stickman/README.txt
+  artifactKey: Guid(90bbeb2ae052b8249b43071c955d7d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/README.txt using Guid(90bbeb2ae052b8249b43071c955d7d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e31f840b5953ca3e408d5707cc3769') in 0.022891 seconds 
+  Import took 0.027780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/BizulkaProduction/Stickman
+  artifactKey: Guid(52f2b3f526b151f4984206fc31d09ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman using Guid(52f2b3f526b151f4984206fc31d09ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9a3395a64d61ae23c5b7a893627e8c') in 0.014660 seconds 
+  Import took 0.018742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/BizulkaProduction/Stickman/jumping_sprint.fbx
+  artifactKey: Guid(a0d68ac56ce80ce4d802cd9f8a11d61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/jumping_sprint.fbx using Guid(a0d68ac56ce80ce4d802cd9f8a11d61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea5e1fffa51aeedb858f69f788fe53e') in 0.021550 seconds 
+  Import took 0.026135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/BizulkaProduction
+  artifactKey: Guid(c67872de3fefe764e98403dda6df7914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction using Guid(c67872de3fefe764e98403dda6df7914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7dba6dfe9406b3971bec26761b99b7') in 0.011824 seconds 
+  Import took 0.016169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/BizulkaProduction/Stickman/Idle_standing_short_idle.fbx
+  artifactKey: Guid(50c387d540535754398d07be325e8270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Idle_standing_short_idle.fbx using Guid(50c387d540535754398d07be325e8270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7a2264de9647a1a28b3d7f4aa0a021') in 0.019584 seconds 
+  Import took 0.023974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/BizulkaProduction/Stickman/Jump_back.fbx
+  artifactKey: Guid(95201a2fb7719d7488ed4a410364844d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Jump_back.fbx using Guid(95201a2fb7719d7488ed4a410364844d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9fc1c42e7837d8ac69fa993e79b80c') in 0.023427 seconds 
+  Import took 0.028102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/BizulkaProduction/Stickman/_leaning_back_or_forth_default.fbx
+  artifactKey: Guid(5551df6321f3a304e992ff8b208c82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/_leaning_back_or_forth_default.fbx using Guid(5551df6321f3a304e992ff8b208c82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0d36ce5b0966b9ded779ba56c8af08') in 0.019640 seconds 
+  Import took 0.023974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.565404 seconds.
+  path: Assets/BizulkaProduction/Stickman/Prefabs
+  artifactKey: Guid(311edfe305b089f449e4cb61754857d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Prefabs using Guid(311edfe305b089f449e4cb61754857d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ab4dbab97abccf035eded45847a0be') in 0.038946 seconds 
+  Import took 0.046530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/BizulkaProduction/Stickman/Prefabs/Stand.prefab
+  artifactKey: Guid(b4c9b441da5d1c24aacee9fbdd6b7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Prefabs/Stand.prefab using Guid(b4c9b441da5d1c24aacee9fbdd6b7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b115979d7dd20d01ddc382b9bb9991e') in 0.463373 seconds 
+  Import took 0.469513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/BizulkaProduction/Stickman/Prefabs/Stickman_heads_sphere.prefab
+  artifactKey: Guid(6b5d591dbb72ac04a80d42bbb710cb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Prefabs/Stickman_heads_sphere.prefab using Guid(6b5d591dbb72ac04a80d42bbb710cb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98f2e78aa1d401879027a04846bb93e') in 0.074277 seconds 
+  Import took 0.079154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.780335 seconds.
+  path: Assets/BizulkaProduction/Stickman/Models/Stand.fbx
+  artifactKey: Guid(8238380a5642ae641ab68abff5b038b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Models/Stand.fbx using Guid(8238380a5642ae641ab68abff5b038b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5934fd83d4ce205bf41b8838f51398e8') in 0.505485 seconds 
+  Import took 0.510393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/BizulkaProduction/Stickman/Models/Stickman_heads_sphere.fbx
+  artifactKey: Guid(fa7f36c71b9e8fa4798df3a931c2fd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Models/Stickman_heads_sphere.fbx using Guid(fa7f36c71b9e8fa4798df3a931c2fd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69a1aae3a9e183adde2c6db9fe0c7dc') in 0.095259 seconds 
+  Import took 0.101403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 932.335283 seconds.
+  path: Assets/BizulkaProduction/Stickman/Models/Stickman_heads_sphere.fbx
+  artifactKey: Guid(fa7f36c71b9e8fa4798df3a931c2fd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BizulkaProduction/Stickman/Models/Stickman_heads_sphere.fbx using Guid(fa7f36c71b9e8fa4798df3a931c2fd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1371f9ff708027fa38b21cbb77bffda1') in 0.135192 seconds 
+  Import took 0.142822 seconds .
+
