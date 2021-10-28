@@ -11,7 +11,7 @@ public class PlayerWallet : MonoBehaviour
 
     private void OnEnable()
     {
-        _character.CoinCollected += OnCoinCollected;   
+        _character.CoinCollected += OnCoinCollected;
     }
 
     private void OnDisable()
