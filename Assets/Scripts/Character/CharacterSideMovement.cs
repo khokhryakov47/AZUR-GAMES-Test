@@ -16,7 +16,6 @@ public class CharacterSideMovement : CharacterMovement
         if (Input.RunButtonPressed)
         {
             Move(new Vector3(Input.DeltaX, 0, 0));
-            Debug.Log(new Vector3(Input.DeltaX, 0, 0).normalized);
         }
     }
 }
