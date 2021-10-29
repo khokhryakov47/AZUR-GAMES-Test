@@ -3,8 +3,7 @@ using UnityEngine.Events;
 
 public class PlayerWallet : MonoBehaviour
 {
-    [SerializeField] private Character _character;
-
+    private Character _character;
     private int _amount;
 
     public event UnityAction<int> AmountChanged;
@@ -17,6 +16,11 @@ public class PlayerWallet : MonoBehaviour
     private void OnDisable()
     {
         _character.CoinCollected -= OnCoinCollected;
+    }
+
+    public void Initialize(Character character)
+    {
+        _character = character;
     }
 
     private void OnCoinCollected(int coinPrice)
