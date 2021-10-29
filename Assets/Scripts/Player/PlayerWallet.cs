@@ -8,19 +8,16 @@ public class PlayerWallet : MonoBehaviour
 
     public event UnityAction<int> AmountChanged;
 
-    private void OnEnable()
-    {
-        _character.CoinCollected += OnCoinCollected;
-    }
-
-    private void OnDisable()
-    {
-        _character.CoinCollected -= OnCoinCollected;
-    }
-
     public void Initialize(Character character)
     {
         _character = character;
+        _character.CoinCollected += OnCoinCollected;
+    }
+
+    private void OnDestroy()
+    {
+        if (_character != null)
+            _character.CoinCollected -= OnCoinCollected;
     }
 
     private void OnCoinCollected(int coinPrice)
