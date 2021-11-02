@@ -4,7 +4,7 @@ public class CharacterForwardMovement : CharacterMovement
 {
     private void FixedUpdate()
     {
-        if (Input.RunButtonPressed)
+        if (Input.Run)
             Move(Vector3.forward);
     }
 }

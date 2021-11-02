@@ -1,18 +1,18 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MouseInput : MonoBehaviour
+public class MouseInput : CharacterInput
 {
     [SerializeField] private KeyCode _runButton = KeyCode.Mouse0;
 
     private float _deltaX;
     private float _positionX;
 
-    public bool RunButtonPressed => Input.GetKey(_runButton);
-    public float DeltaX => _deltaX;
+    public override bool Run => Input.GetKey(_runButton);
+    public override float DeltaX => _deltaX;
 
-    public event UnityAction Running;
-    public event UnityAction Stopped;
+    public override event UnityAction Running;
+    public override event UnityAction Stopped;
 
     private void Update()
     {

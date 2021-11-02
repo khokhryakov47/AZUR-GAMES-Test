@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Character))]
-[RequireComponent(typeof(MouseInput))]
+[RequireComponent(typeof(CharacterInput))]
 [RequireComponent(typeof(Animator))]
 public class CharacterAnimator : MonoBehaviour
 { 

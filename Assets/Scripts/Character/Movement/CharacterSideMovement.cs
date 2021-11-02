@@ -13,7 +13,7 @@ public class CharacterSideMovement : CharacterMovement
 
     private void FixedUpdate()
     {
-        if (Input.RunButtonPressed)
+        if (Input.Run)
         {
             Move(new Vector3(Input.DeltaX, 0, 0));
         }

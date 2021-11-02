@@ -1,18 +1,18 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(MouseInput))]
-public class CharacterMovement : MonoBehaviour
+[RequireComponent(typeof(CharacterInput))]
+public abstract class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    protected MouseInput Input;
+    protected CharacterInput Input;
 
     private Rigidbody _rigidbody;
 
     private void Awake()
     {
-        Input = GetComponent<MouseInput>();
+        Input = GetComponent<CharacterInput>();
         _rigidbody = GetComponent<Rigidbody>();
     }
 
